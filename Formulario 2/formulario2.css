@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+/*input[type=file]{
+	display: none;
+}
+
+/*por padrao o label é display inline*
+label{
+	display: block;
+	margin: 20px auto;
+	cursor: crosshair;
+	font-size: 16px;
+	font-family: arial;
+	font-weight: bold;
+	font-style: italic;
+	width: 220px;
+	height: 40px;
+	background-color: gold;
+	color: blue;
+	text-align: center;
+	line-height: 40px;
+}*/
+
+form{
+	text-align: center;
+	background-color: #ac7;
+	padding: 20px 0;
+}
+
+/*form > select{
+	width: 220px;
+	height: 40px;
+	border: 0;
+	padding-left: 10px;
+	background-image: url('../Imagens/seta_pra_baixo.png');
+	background-size: 10px 10px;
+	background-repeat: no-repeat;
+	background-position: 96% 20px;
+	appearance:none; /*vai mexer com o estilo da selec box, para alguns navegadores precisa-se de usa r prefixo*
+	-webkit-appearance:none; /*para o chrome*
+	-moz-appearance:none; /*mozila*
+}
+/*essa pseudo-class é para editar apenas o internet explorer; nesse caso tm q ser :: pra pseudo-class*
+select::-ms-expand{
+	display: none;
+}*/
+
+/*input[type=checkbox]{
+	display: none;
+}
+
+label{
+	margin: 0 60px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: green;
+}
+
+/*vai atacar com a pseudo-class a label e esse + siguinifica q vai atacar tmb o proximo elemento*
+input[type=checkbox]:checked + label{
+	background-color: red;
+}*/
+
+input[type=radio]{
+	display: none;
+}
+
+label{
+	margin: 0 60px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+	border-radius: 30px;
+}
+
+input[type=radio]:checked + label{
+	background-image: url('../Imagens/moeda.png'); 
+	background-repeat: no-repeat;
+	background-size: 40px 34px;
+	background-position: 50% 0px;
+
+}
+

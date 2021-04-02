@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+form{
+	width: 96%;
+	max-width: 600px;
+	margin:  30px auto;
+	text-align: center;
+}
+
+form > fieldset{
+	padding: 20px 40px;
+	border: 3px dotted #ccc;
+}
+
+form legend{
+	font-size: 17px;
+	color: darkblue;
+}
+
+form input[type= text]{
+	font-family: tahoma;
+	display: inline-block; /*para poder aplicar as dimeções, ja q o input esta com div*/
+	margin-top: 30px;
+	width: 80%;
+	padding: 10px 13px;
+	border: 1px solid #ccc;
+}
+
+form input[type= text]:focus, form select:focus, form textarea:focus{
+	outline: 0; /*é para não aparecer borda ao interagir com o input*/
+}
+
+form select{
+	font-family: tahoma;
+	color: rgb(100, 100, 100);
+	width: calc(80% + 26px); /*só os 80% não seria o bastante pois por padrao o select tem ...border-box entao tivemos que por + 13px pra direita e esquerda*/
+	margin-top: 30px;
+	padding: 10px 13px;
+	display: inline-block;
+	border: 1px solid #ccc;
+}
+
+form select option{
+	color: black;
+}
+
+form select option[disabled]{
+	color: orange;
+}
+
+form select option:nth-of-type(3){
+	color: red;
+}
+
+form h2{
+	margin-top: 20px;
+	color: rgb(130, 100, 130);
+}
+
+.radio-input, .checkbox-input{
+	text-align: left;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.radio-input span, .checkbox-input span{
+	margin-left: 13px;
+	font-size: 16px;
+	color: darkblue;
+}
+
+form textarea{
+	font-family: tahoma;
+	display: inline-block; /*para poder aplicar as dimeções, ja q o input esta com div*/
+	margin-top: 30px;
+	width: 80%;
+	height: 140px;
+	padding: 10px 13px;
+	border: 1px solid #ccc;
+	resize: none;
+}
+
+form input[type=submit]{
+	/*cursor: crosshair; vai criar uma cruz no ponteiro do mouse*/
+	/*cursor: help; vai criar acrescentar um ponto de exclamacao*/
+	/*cursor: wait; vai criar uma ampulheta no ponteiro do mouse*/
+	cursor: pointer; /*vai dxar adaptavel o ponteiro do mouse*/
+	width: 140px;
+	height: 40px;
+	margin-top: 30px;
+	border:0;
+	color: white;
+	font-size: 16px;
+	border: 2px solid rgb(130, 130, 130);
+	background-color: rgb(140, 140, 140); /*por padrao já tem cor de fundo e nós não queremos nada*/
+}
+
