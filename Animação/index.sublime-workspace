@@ -1,0 +1,679 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fots",
+				"font-size\tproperty"
+			],
+			[
+				"margi",
+				"margin-right\tproperty"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"wor",
+				"word-break\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"co",
+				"content\tTag"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"b",
+				"background\tproperty"
+			],
+			[
+				"row",
+				"row-reverse\tflex-direction"
+			],
+			[
+				"f",
+				"flex\tproperty"
+			],
+			[
+				"no",
+				"nowrap\twhite-space"
+			],
+			[
+				"t",
+				"table-cell\tdisplay"
+			],
+			[
+				"tab",
+				"table-row"
+			],
+			[
+				"word",
+				"word-wrap\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"tr",
+				"translateX"
+			],
+			[
+				"rgb",
+				"rgba()\tbackground-color"
+			],
+			[
+				"boe",
+				"border-radius\tproperty"
+			],
+			[
+				"border-top",
+				"border-top-right-radius\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"ani",
+				"animation-iteration-count\tproperty"
+			],
+			[
+				"anim",
+				"animation-duration\tproperty"
+			],
+			[
+				"anio",
+				"animation-name\tproperty"
+			],
+			[
+				"paddi",
+				"padding\tproperty"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration-line\tproperty"
+			],
+			[
+				"i",
+				"italic\tfont-style"
+			],
+			[
+				"anc",
+				"text-anchor\tproperty"
+			],
+			[
+				"C",
+				"content\tAttr"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"m",
+				"margin\tproperty"
+			],
+			[
+				"c",
+				"clear\tproperty"
+			],
+			[
+				"p",
+				"padding\tproperty"
+			],
+			[
+				"A",
+				"auto\theight"
+			],
+			[
+				"a",
+				"auto\theight"
+			],
+			[
+				"paddin",
+				"padding-bottom\tproperty"
+			],
+			[
+				"animat",
+				"animation-name\tproperty"
+			],
+			[
+				"ea",
+				"ease-out"
+			],
+			[
+				"eas",
+				"ease-in"
+			],
+			[
+				"transiti",
+				"transition\tproperty"
+			],
+			[
+				"tras",
+				"transition-timing-function\tproperty"
+			],
+			[
+				"transi",
+				"transition-delay\tproperty"
+			],
+			[
+				"trans",
+				"transition-duration\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"list",
+				"list-style-position\tproperty"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"bacc",
+				"background-clip\tproperty"
+			],
+			[
+				"bo",
+				"bottom\tproperty"
+			],
+			[
+				"r",
+				"right\tproperty"
+			],
+			[
+				"boder",
+				"border\tproperty"
+			],
+			[
+				"border",
+				"border-image\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"ps",
+				"position\tproperty"
+			],
+			[
+				"br",
+				"background-repeat\tproperty"
+			],
+			[
+				"boo",
+				"bottom\tproperty"
+			],
+			[
+				"mari",
+				"margin\tproperty"
+			],
+			[
+				"bcc",
+				"background-color\tproperty"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"po",
+				"position\tproperty"
+			],
+			[
+				"rg",
+				"rgba()\tbackground-color"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"U",
+				"UL\tTag"
+			],
+			[
+				"bcr",
+				"background-repeat\tproperty"
+			],
+			[
+				"cl",
+				"clear\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"bi",
+				"border-image\tproperty"
+			],
+			[
+				"fol",
+				"float\tproperty"
+			],
+			[
+				"hi",
+				"line-height\tproperty"
+			],
+			[
+				"te",
+				"Telefone"
+			],
+			[
+				"e",
+				"E-mail"
+			],
+			[
+				"mgt",
+				"margin-top\tproperty"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"fonts",
+				"font-size\tproperty"
+			],
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"radio",
+				"radio1"
+			],
+			[
+				"che",
+				"checkbox"
+			],
+			[
+				"ch",
+				"checkbox"
+			],
+			[
+				"ba",
+				"background-size\tproperty"
+			],
+			[
+				"back",
+				"background-repeat\tproperty"
+			],
+			[
+				"bac",
+				"background-image\tproperty"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"met",
+				"meta\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 218.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/artigos.html",
+		"/C/Users/joaop/OneDrive/Documentos/MeusProjestos/Aulas-do-Curso-de-Front_End/README.md",
+		"/C/Users/joaop/OneDrive/Documentos/MeusProjestos/Aulas-do-Curso-de-Front_End/Animação/style.css",
+		"/C/Users/joaop/OneDrive/Documentos/MeusProjestos/Aulas-do-Curso-de-Front_End/Animação/index.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/Animacao/Animacao.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/Animacao/index.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/Animacao/Animacao.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas Praticas/Project_02/css/style.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas Praticas/Project_02/index.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas Praticas/Aula 01/index.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/efeito grandient.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/efeito grandient.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/display flex.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/display flex.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/display table.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/display table.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/Word-wrap e muito mais.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/Word-wrap e muito mais.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/transform e border-radius.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/transform e border-radius.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/overflow.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/controle do console do navegador.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/controle do console do navegador.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/Opacidade e shadow-box.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/Opacidade e shadow-box.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/Aulas de JavaScript/Noob.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/Aulas de JavaScript/js/Noob.js",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/portifolio-relp/portifolio-relp.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/portifolio-relp/portifolio-relp.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/começo.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/js/Noob.js",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/SEO.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/SEO.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Project_01/css/style.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Minhas Lading Pages/FIT.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Minhas Lading Pages/css/FIT.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/meu portifolio/index.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/meu portifolio/css/style.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Project_01/index.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/Animação.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/Animação.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/transition.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/transition.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/Audio.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/Audio.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/Videos.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/Videos.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/Iframe.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/Iframe.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/Novos inputs.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/Novos inputs.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/Ideal.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/Ideal.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/html4.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/html5.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/HTML4.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/HTML5.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/formulario.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/posicao responsiva.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/posicao responsiva.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/float e inline-block responsivo.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/float e inline-block responsivo.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/iniciando design responsivo.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/iniciando design responsivo.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/mais sobreo media queries.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/mais sobreo media queries.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/css/VW VH e Calc.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Aulas/VW VH e Calc.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Galeria Responsiva/css/galeria-responsiva.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Galeria Responsiva/galeria-responsiva.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Project_01/galeria-responsiva.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Project_01/css/galeria-responsiva.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/css/margin e padding com porcentagem.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/margin e padding com porcentagem.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/fontes personalizadas.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/aprendendo css.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/css/tags e atributos personalizados.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/tags e atributos personalizados.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Project_01",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/css/fontes personalizadas.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/float.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/css/formulario2.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/formulario2.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/pseudo-classes.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/reuse-class.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/Revisão das primeiras aulas.html",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/css/style.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/css/Sobre As Funçoes Auto, Inherit e Initial.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/css/pseudo-classes.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/css/position.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/css/overflow.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/css/menu.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/css/manipulando CSS.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/css/lista.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/css/formulario.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/css/artigos.css",
+		"/C/Users/joaop/Xamp/htdocs/WEB DEV/Inicio de aula/formulario.html",
+		"/C/Users/joaop/OneDrive/Área de Trabalho/BatmanLight.tmTheme",
+		"/C/Users/joaop/OneDrive/Área de Trabalho/oi.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 142.4,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 52.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 40.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"WEB DEV\\Inicio de aula\\css\\formulario2.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
