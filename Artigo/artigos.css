@@ -1,0 +1,45 @@
+/* * para editar margens de TUDO */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: black;
+}
+
+/* É necessario declarar height, pois por padrão eles não são 100% */
+html,body{
+	height: 100%;
+}
+
+.artigo{
+	background-color: rgb(255, 255, 255);
+	width: 80%;
+	/*max-width: 300px;/* serve para limitar o tamanho da tela como vc achar melhor, caso ache 
+que tantos % sejam grandes de mais */
+	height: auto;/* É bom usar % em casos em que o tamnho é pre definido e vc sabe que nao vai vazar da margem */
+	margin: 0 auto;
+}
+
+.artigo h1{
+	color: #fa411b;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 40px;
+	font-family: Georgia;
+	font-style: italic; /* o texto é definido como padrão normal */
+	font-weight: normal; /* H1 até H4 o normal é negrito = bold */
+	letter-spacing: 5px; /* É o espaço entre as letras */
+}
+
+.artigo p{
+	/*width: 1000px;*/
+	/*line-height: 20px; /* Espaço em cada quebra de linha */
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+	/*font-variant: small-caps;*/
+}
