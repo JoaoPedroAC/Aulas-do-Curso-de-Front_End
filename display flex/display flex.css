@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+main{
+	display: flex;
+/*vai dxar alinhado na vertical*/
+	align-items: center;
+	/*flex-direction: row-reverse;*/
+	/*flex-direction: row;*/
+	flex-direction: column;
+	/*flex-direction: column-reverse;*/
+}
+
+aside{
+	/*order: 2;*/
+	background-color: #ccc;
+	padding: 90px 20px;
+	width: 300px;
+}
+
+article{
+	/*order: 1;*/
+	background-color: gray;
+	padding: 30px;
+	width: 800px;
+}

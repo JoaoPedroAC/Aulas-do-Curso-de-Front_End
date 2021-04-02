@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+/*body{
+	background-color: #32c;
+}*/
+
+/*.bg{
+	width: 100%;
+	height: 30vw;/*se usar auto nesse caso, vai dá bug; vh = vew port width*/
+	/*margin: 0 auto;
+	background-image: url('https://conteudo.imguol.com.br/c/noticias/f1/2019/11/02/a-nasa-elegeu-como-foto-astronomica-do-dia-em-22-de-outubro-esta-imagem-da-via-lactea-capturada-por-jheison-huerta-no-salar-de-uyuni-na-bolivia-1572723035380_v2_976x549.jpg');
+	background-color: red;
+	background-size: cover;
+	background-attachment: fixed;/*para seguir o fluxo da vew port igual overflow*/
+	/*background-repeat: no-repeat;
+	/*background-position: center;/*Por padrão da porcetagem o Y é 50%*/
+
+/*	background-color: red;
+/*esse ../ eh pq o diretório é o mesmo que pertence 
+o arquivo que estou mexendo*/
+/*	background-image: url('C:/Users/joaop/OneDrive/Área de Trabalho/WEB DEV/Meus sites/imagens/arthur.jpg');
+	/*background-size: 255px 255px;/*width e height*/
+/*background-size temos, pixel, %(nao indicado), cover(cobrir), 
+contain(conter a imagem no espaço para uma "melhor qualidade")*/
+/*	background-size: contain;
+	background-position: left;
+/*para caso da imagem mesmo com background-size definido ainda 
+estiver repetindo => background-repeat: no-repeat;
+	/*background-repeat: repeat-x repeat-y;
+}*/
+
+.clear{
+	clear: both;
+}
+
+.box{
+	width: 100%;
+	margin: 80px;
+	text-align: center;
+	background-color: grey;
+	
+}
+.item{
+	width: 50%;
+	margin-right: -4px;/*caso os blocos voltem a ficar 1 abaixo do outro*/
+	display: inline-block;
+	background-color: grey;
+}
+
+.item img{
+	width: 50%;
+}
+
+.item p{
+	display: inline-block;
+	text-align: left;
+	color: red;
+}
+
+/*vai remover o espaçamento extra*/
+.last{
+	margin-right: 0;
+}

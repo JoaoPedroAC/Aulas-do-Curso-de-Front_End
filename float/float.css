@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+.pai{
+	width: 1280px;
+	margin: 20px auto;
+	padding: 20px 0;
+	background: blue;
+
+}
+
+.child{
+	box-sizing: border-box;
+	width: 640px;
+	height: 300px;
+	background: red;
+	float: left; /* substituto do display: inline-block; 
+nesse caso vai criar um espaço p/ o lado esquerdo */
+	text-align: center;
+	font-size: 40px;
+	padding: 50px 0;
+	color: rgb(255,255,255);
+	border: 1px solid black;
+}

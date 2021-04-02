@@ -1,0 +1,54 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.box{
+	width: 100%;
+	height: 300px;
+	background: linear-gradient(to bottom right, rgb(255,0,0), purple, #ccef20);
+}
+
+.box2{
+	width: 100%;
+	height: 300px;
+	background: linear-gradient(-30deg, rgb(255,0,0), orange, rgba(200,200,150, 0.5), #ccef20);
+}
+
+.box3{
+	width: 100%;
+	height: 300px;
+/*50% em ambos fica literal mente metade metade*/
+	background: linear-gradient(-30deg, red 50%, yellow 50%);
+}
+
+.box4{
+	width: 100%;
+	height: 300px;
+	background: repeating-linear-gradient(-30deg, red 40%, yellow 50%);
+}
+
+.box5{
+	width: 100%;
+	height: 300px;
+/*o degrade quando com % funciona começando com menor valor e termina com maior valor */
+	background:radial-gradient(circle, black 10%, darkorange 20%, darkred 60%);
+}
+
+.box6{
+	width: 100%;
+	height: 300px;
+/*o degrade quando com % funciona começando com menor valor e termina com maior valor */
+	background:repeating-radial-gradient(purple 10%, black 20%);
+}
+
+.box7{
+	width: 100%;
+	height: 300px;
+/*o degrade quando com % funciona começando com menor valor e termina com maior valor */
+	background:repeating-radial-gradient(50% 40%, pink 10%, orange 20%, white 30%);
+}
+
+.box8{
+	width: 100%;
+	height: 300px;
+/*o degrade quando com % funciona começando com menor valor e termina com maior valor */
+	background:repeating-radial-gradient(circle, purple 10%, black 20%, yellow 30%);
+}

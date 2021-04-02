@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+/*
+.header{
+	margin: 0 auto;
+	width: 100%;
+	min-width: 50%;/* min-... sempre será prioridade, podendo ser com % ou px *
+	height: 200px;
+	background-color: blue;
+}
+
+.article{
+	margin: 0 auto;
+	width: 1280px;
+	height: 200%;
+	max-width: 20%;
+	min-width: 50%;
+	background-color: red;
+}*/
+
+.center{
+	/*box-sizing: border-box;/* serve para manter o espaçamento dentro da caixa e está ligado ao width e heigth */
+	/*box-sizing: content-box;/* É padrão; ele limita o espaçamento só para os lados */
+	width: 1280px;
+	margin: 0 auto;
+	/*padding: 30px;*/
+	/*padding-left: 30px;*/
+	background-color: gray;
+	/*padding: 30px 30px 30px 30px;*/
+
+}
+
+.artigo{
+	/*width: 100%;/* É 100% baseado na width da CLASSE PAI */
+	/*margin-right: 30px;*/
+	/*margin-top: 50px;*/
+	/*margin: 50px 30px 50px 30px; /* está editando as margens no sentido horário: TOP, RIGHT, BOTTOM e LEFT; */
+	/*margin: 40PX 30px; /* está editando as margens no sentido Vertical e Horizontal */
+	/*margin-bottom: 40px;*/
+
+	box-sizing: border-box; /* vai fazer com q as bordas fiquem p/ dentro, 
+logo ficarão uma no lado da outra, claro que respeitando o espaço limite*/
+	
+	border: 5px solid rgba(255,100,255, 1);/* o A do RGB é p/ controlar o nivel de transparencia */
+	
+	vertical-align: top; /* alinhamento na vertical */
+	/*!!! HÁ MÉTODOS MELHORES QUE ESSE PARA AUMENTAR O ESPAÇO ENTRE BLOCOS, MAS AINDA NÃO FOI ENSINADO !!!*/
+	margin-right: -4px;
+	/* É obrigatório --/++ a margem caso estrapole a width e/ou height da mãe e tem que -/+ 4, 
+pois a inline por padrão dispões 4px*/
+	
+	display: inline-block; /* para os blocos ficarem na mesma linha ao inves de 1 abaixo do outro */
+	width: 640px;*/
+
+/* Existe um tipo de borda que é usada no CSS como out-line, é um borda que cresce pra fora, 
+igual o box-sizing faz, porem ele não achata nada dentro */
+
+}
