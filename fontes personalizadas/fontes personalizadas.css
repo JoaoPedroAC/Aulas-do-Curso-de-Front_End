@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+/*importando o arquivo baixado e jogado na pasta font, atraves do site do google fonts*/
+
+@font-face {
+    src: url('../fonts/PlayFairDisplay-MediumItalic.ttf');
+    /*vc pode nomear qui oq vc quiser*/
+    font-family: 'my font';
+}
+
+
+/*!important eh para fazer com q o sitema ignore o nivl de especificação e faça oq eu mandei*/
+
+
+/*caso haja nos dois, ai qm vence é o nivl de especificação maior*/
+
+
+/*.box > p{
+	font-family: 'PlayFair Display'; /*para usar a font personalizada do google*
+	font-family: "my font";
+}
+.text{
+	font-family: tahoma !important;
+}*/
+
+
+/*isso é para atacar tudo oq esta ligado DIRETAMENTE ao form, caso tenha alguma div, tem q apagar o >*/
+
+form>* {
+    font-family: "my font";
+}
