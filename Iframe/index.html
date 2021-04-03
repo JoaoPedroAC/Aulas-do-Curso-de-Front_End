@@ -14,8 +14,150 @@
 
 <body>
     <!-- Iframe serve para abrir sites externos dentro do nosso -->
-    <iframe src="https://github.com/JoaoPedroAC/Exercicios-do-curso.git/Galeria Responsiva/index.html" allow="fullscreen"></iframe>
+    <iframe src="C:/Users/joaop/OneDrive/Documentos/MeusProjestos/Exercicios-do-curso/Galeria Responsiva/index.html" scrolling="no"></iframe>
+
+    <iframe src="https://My-First-Landing-Page-just-front-end.johnpeter07.repl.co" frameborder="0"></iframe>
 
 </body>
 
 </html>
+
+<!-- 
+    Definindo quais recursos podem ser usados pelo iframe: allow
+
+É possível definir algumas políticas de utilização do elemento <iframe> em uma página. O atributo allow permite modificar as permissões para que o <iframe> possa realizar ou não determinados recursos, veja alguns deles:
+
+* accelerometer: para ter acesso os sensores de movimentos;
+* autoplay: permite o acesso à execução automática de áudio e vídeo;
+* fullscreen: permite a utilização do método requestFullscreen(), que faz com que o quadro ocupe toda a tela;
+* geolocation: que permite acessar a localização da pessoa usuária;
+* microphone: para controlar a entrada e saída de áudio. 
+
+<iframe src=”url-do-conteudo” allow=”accelerometer; fullscreen; gyroscope; midi”></iframe>
+
+-->
+
+<!--  
+       Permitindo o modo de tela cheia: allowfullscreen
+A autorização para a utilização de tela cheia pode ser dada tanto pelo atributo allow, que mencionamos acima, quanto pelo atributo allowfullscreen. A diferença entre eles é apenas na forma em que o atributo é utilizado. Nesse caso, basta adicionar o atributo conforme o exemplo abaixo.
+
+<iframe src=”url-do-conteudo” allowfullscreen></iframe> 
+
+Quando utilizamos esse atributo, é possível utilizar um botão para alterar o tamanho do quadro original para a tela cheia. Isso é feito por meio de código JavaScript, por exemplo.
+
+-->
+
+<!-- 
+    Adicionando uma borda à página: frameborder
+Quando utilizamos o <iframe>, ele cria uma área para a inserção do conteúdo externo com uma pequena borda. Entretanto, é possível alterar essa característica e retirar a borda com a utilização do atributo frameborder = “0”. Vale ressaltar que também é possível adicionar outras características à borda com a utilização de estilos CSS. 
+    
+-->
+
+<!-- 
+    Definindo o tamanho das margens superiores e inferiores: marginheight 
+O conteúdo inserido no <iframe> também pode ser formatado para que não fique tão próximo às bordas. Para isso, podemos utilizar o atributo marginheight e alterar a distância das margens superiores e inferiores do elemento. O valor atribuído deve ser em pixels.
+
+    <iframe src="outrapagina.html" marginheight ="40"></iframe> 
+    
+-->
+
+<!-- 
+    Definindo o tamanho das margens laterais: marginwidth
+Assim como é possível atribuir um determinado valor às margens superiores e inferiores, o mesmo vale para as margens laterais direita e esquerda. Nesse caso, o atributo utilizado é o marginwidth e o valor também deve ser informado em pixels.
+
+    <iframe src="outrapagina.html" marginwidth ="40"></iframe>
+
+-->
+
+<!-- 
+    Definindo o nome de um <iframe>: name
+O atributo name serve para definir um nome para o elemento <iframe>. Dessa forma, ele pode ser acessado por meio de código JavaScript para a realização de interações ou quando queremos preencher o conteúdo do <iframe> por meio de links HTML, por exemplo.
+    
+-->
+
+<!-- 
+    Permitindo a barra de rolagem na página embedada: scrolling
+Por padrão, a barra de rolagem é inserida automaticamente no <iframe> sempre que o conteúdo inserido for maior que a área disponível. Entretanto, pode ser necessário habilitar ou desabilitar esse recurso. Isso é feito por meio do abributo scrolling, que contém os seguintes valores:
+
+yes: para exibir a barra de rolagem;
+no: para esconder a barra de rolagem;
+auto: a barra é exibida conforme a necessidade e é o valor padrão do elemento.
+
+-->
+
+<!-- 
+    Restrições e permissões no conteúdo embedado: sandbox
+Outra forma de definir algumas políticas de permissões para o conteúdo do elemento <iframe> é por meio do atributo sandbox. Ele habilita uma série de restrições que oferecem segurança à página para evitar, por exemplo, que códigos maliciosos sejam executados.
+
+Entretanto, pode ser necessário liberar algumas dessas restrições quando temos confiança no site de origem. Por isso, ele contém uma série de valores que determinam essas condições específicas. Veja algumas delas abaixo:
+
+allow-same-origin: permite que a página acessada pelo iframe entenda que as requisições efetuadas são referentes a mesma origem. Por exemplo, um <iframe> com status de atualização de rede social precisa se comunicar com o site de origem com frequência para realizar atualizações. Ao dar essa permissão, o navegador não considera essas requisições como sendo de origem cruzada, o que causaria falha na execução da página;
+allow-top-navigation: permite a navegação na página acessada no <iframe> para o nível superior;
+allow-forms: permite que formulários dentro do elemento <iframe> sejam submetidos;
+allow-popups: aceita a abertura de janelas modais;
+allow-scripts: autoriza a execução de scripts;
+allow-pointer-lock: o movimento do mouse gera diferentes tipos de evento no navegador, como o mouseup(), click(), entre outros, que podem ser utilizados por códigos maliciosos para executar ações indevidas. Por isso, esse é um tipo de bloqueio imposto pelo atributo sandbox e a condição allow-pointer-lock permite a utilização desses eventos.
+
+Assim como acontece com o atributo allow, no sandbox todas as permissões devem ser declaradas e separadas por ponto e vírgula.
+
+-->
+
+<!-- 
+    Como inserir vídeos do YouTube em uma página?
+A utilização do elemento <iframe> é muito comum para inserir vídeos do YouTube em uma página. Entretanto, não basta informar apenas o endereço do vídeo que desejamos exibir. Uma das formas mais rápidas de fazer isso é copiar o código de incorporação disponível na página do vídeo a ser inserido.
+
+Para encontrar esse código, basta clicar com o botão direito do mouse sobre o vídeo desejado e clicar na opção “< > Copiar código de incorporação”. A seguir, cole esse conteúdo em uma página de código HTML.
+
+Perceba que além do endereço do vídeo, também foi preciso utilizar o atributo allow com uma série de autorizações para que o vídeo possa ser executado da maneira adequada. Além disso, foi utilizado o atributo allowfullscreen para que a alternativa de exibir o vídeo em tela cheia possa funcionar corretamente.
+
+Por fim, temos algumas formatações de largura, altura e borda, que também podem ser melhoradas por meio da aplicação de estilos CSS.
+
+-->
+
+<!-- 
+    Target links: como criar iframes interativos?
+Os iframes também podem ser utilizados de forma interativa, ou seja, a pessoa usuária da página pode clicar em um link que fará a chamada ao conteúdo para ser exibido no <iframe>. A vantagem dessa forma de utilização é que não é preciso criar um elemento para cada item, pois basta selecioná-lo conforme a necessidade. Veja um código de exemplo:
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando o elemento iframe</title>
+</head>
+<body>
+     <iframe src="https://blog.betrybe.com/carreira/carreira-em-tecnologia/" width="640" height="360" name="iframe_artigos"></iframe>
+    <h2>Escolha outro artigo para ler.</h2>    
+    <div>
+        <a href="https://blog.betrybe.com/carreira/como-manter-o-foco/" target="iframe_artigos">Como manter o foco para estudar ou programar?</a>
+    <div>
+    <div>
+        <a href="https://blog.betrybe.com/carreira/como-programar/" target="iframe_artigos">Como programar: passo a passo para iniciantes!</a>
+    </div>
+    <div>
+        <a href="https://blog.betrybe.com/carreira/emprego-dos-sonhos/" target="iframe_artigos">Emprego dos sonhos: 6 passos para trabalhar com o que ama!</a>
+    </div>
+</body>
+</html>
+
+Perceba que a modificação no conteúdo do <iframe> é feita em função do atributo name, que é o mesmo valor do atributo target na tag <a>, que contém o respectivo link “href” da página a ser acessada. Dessa forma, é feita a união entre esses elementos, o que permite a modificação interativa do conteúdo.
+    
+-->
+
+<!-- 
+    Qual a compatibilidade com os navegadores?
+
+    * nternet Explorer: 11;
+    * Edge: 12;
+    * Firefox: 83;
+    * Chrome: 4;
+    * Safari: 14;
+    * Opera: 72;
+    * iOS Safari: 14.2;
+    * Android Browser: 81;
+    * Opera Mobile: 59;
+    * Chrome for Android: 87;
+    * Firefox for Android: 83;
+    * Samsung Internet: 13.0.
+ -->
+
+<!-- Visto no site: https://blog.betrybe.com/html/iframe-html/ -->
