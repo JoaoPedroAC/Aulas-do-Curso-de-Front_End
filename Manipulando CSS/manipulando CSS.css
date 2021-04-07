@@ -1,0 +1,55 @@
+/*[] serve para pegar os atributos como: links, etc*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+/*
+a[href="http://www.google.com"]{
+	background-color: yellow;
+}
+/*
+[href="http://www.google.com"]{
+	background: orange;
+}
+*/
+
+/*O *= é para atacar todos os links q contenham as palavras semelhantes
+não importa a ordem
+a[href*=".com"]{
+	background-color: red;
+}*/
+
+/*O ~= é para atacar os links q começam as palavras semelhantes
+q estejam separedos por espaços
+a[attr~="imagens"]{
+	background-color: green;
+}*/
+
+/*O |= é para atacar os links q começam as palavras semelhantes
+q estejam separedos por -
+a[attr|="imagens"]{
+	background-color: blue;
+}*/
+
+/*O ^= é para atacar os links q começam com alguma palavra ou letra
+a[href^="h"]{
+	background-color: gray;
+}*/
+
+/**O $= é para atacar os links q terminam com alguma palavra ou letra
+a[href$="m"]{
+	background-color: orange;
+}*/
+
+input[type=text]{
+	background-color: blue;
+}
+
+.sub{
+	background-color: green;
+}
