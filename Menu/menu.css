@@ -1,0 +1,51 @@
+/* * vai pegar tudo no documento*/
+/* margin e padding 0 é para eu poder manipular tudo, pois o sistema, possui suas configurações padrões */
+*{
+	margin: 0;/* margin é espaço em volta do objeto, exemplo margens */
+	padding: 0;/* padding é o espaço dentro do objeto, exemplo balão */
+}
+
+/* esta especificando mais, o width esta predominando sobre o de baixo, porem o resta é o do .menu*/
+/*div.menu{
+	width: 500px;
+}*/
+
+.menu{
+	width: 900px;
+	background-color: black;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	/*margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;*/
+	/*margin: 10px 50px; /* X e Y*/
+	/*margin: 10px auto;/* vai centralizar*/
+	/*padding: 10px;
+	padding-top: 50px;*/
+
+}
+
+.menu a{
+	text-decoration: none;
+	color: red;
+	font-size: 20px;
+	margin: 10px;
+	/*border-left: 1px;
+	border-right: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: blue;
+	/* ou */
+	border: 5px solid blue;
+	padding: 10px;
+}
+
+/* esta especificando mais */
+/*.menu > a{ 
+	color: orange;
+}*/
+/* Por mais que o códogp seja lido de cima pra baixo, assim como lemos livros, o CSS ler com prioridade 
+o bloco de comando repetido que mais especifica a area de coamndo ou o comando em si  */
