@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+.box{
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	background: grey;
+	/*overflow: auto;/* o que queremos q aconteça caso o conteudo ultrapasse a
+classe pai; temos:
+hidden = esconde as coisas, 
+auto = cria uma scroll-bar, 
+visible = é visivel (padrão), 
+scroll = vai por scrol-bar; 
+podemos por overflow-x ou y, caso queira por uma scroll na horizontal 
+ou vertical ou aplicar afetar uma direção especifica */
+	overflow: auto;
+	/* display: none; /* vai dxar o conteudo invisivel, 
+outros conteudos poderam ocupar o mesmo lugar */
+}
+
+.box p{
+	width: 500px;
+}
