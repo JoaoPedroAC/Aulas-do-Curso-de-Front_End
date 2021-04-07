@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Novos Inputs</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Descição do meu site." />
+    <meta name="keywords" content="palavras, separadas, por, virgula" />
+    <meta name="author" content="João Pedro">
+    <meta name="viewport" content="width=device-width, initial-sclae=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="Novos Inputs.css">
+</head>
+
+<body>
+    <!-- OBS: TEM Q TER CUIDADO COM ALGUMAS TAGS NOVAS, POIS NÃO FUNCIONA BEM NO MOBILE -->
+    <form id="a">
+        <input type="text" name="nome" value="" placeholder="Digite aqui seu nome..." />
+        <input type="reset" name="" />
+        <!-- vai redefinir tudo o q tiver dentro da tag pai -->
+    </form>
+
+    <form id="b">
+        <input type="number" name="numero" min="1" max="100">
+
+        <input type="date" name="data">
+
+        <input type="color" name="cor" value="#ffffff">
+    </form>
+
+    <form id="c">
+        <!-- NAO FUNCIONABEM NOS NAVEGADORES DE MOBILE -->
+        <input type="email" name="e-mail" placeholder="Escreva seu e-mail aqui..." required="">
+        <input type="submit" name="botao" value="Enviar">
+    </form>
+</body>
+
+</html>

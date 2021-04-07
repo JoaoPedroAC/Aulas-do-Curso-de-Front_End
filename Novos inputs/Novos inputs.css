@@ -1,0 +1,16 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+html, body{height: 100%;}
+
+input{
+	display: block;
+	margin-top: 20px;
+}
+
+#a input:nth-child(1), input:nth-child(2){
+	display: inline-block;
+}
+
+#c input:nth-child(1), input:nth-child(2){
+	display: initial;
+}
