@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+.lista, .lista2{
+	list-style-position: inside; /* inside é para que as marcações da lista fiquem dentro da área de escrita */
+	list-style-type: disc; /* personalisa como as marcações vão aparecer */
+	margin-left: 15px;
+}
+
+.lista li, .lista2 li{
+	color: green;
+	font-size: 16px;
+	margin-top: 20px;
+
+}
+
+.lista li#item-2, .lista2 #item-1{
+	color: red;
+	font-weight: bold;
+}
+
+.listou{
+	list-style-position: inside;
+	margin-left: 15px;
+}
+
+ol > li{
+	color: darkblue;
+	font-size: 16px;
+	font-family: verdana;
+	margin-top: 15px;
+}
+
+ol > #item1{
+	border: 5px solid gray;
+}
+
+#item1 > ol > #sub1{
+	border: 6px solid yellow;
+}
+
+#sub1 > ol > #ss1{
+	border: 6px solid red;
+}
