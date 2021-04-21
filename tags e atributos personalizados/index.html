@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tags e atributos personalizados</title>
+	<meta charset="utf-8">
+	<!-- <link rel="stylesheet" type="text/css" href="tags e atributos personalizados.css"> -->
+	<!-- css da tag q eu criei -->
+	<style type="text/css">
+		minhatag{
+			display: block;
+		}
+
+		minhatag.S_T{
+			background-color: gold;
+			width: 100px;
+			height: 300px;
+		}
+
+		joao > h4{
+			background-color: blue;
+		}
+
+	</style>
+</head>
+
+<body>
+<!-- isso é pra criar uma tag, porem só pode ser estilisado no prorpio arquivo de html(ate o momento) -->
+	<minhatag tag="um" class="S_T">
+		ola mundo
+	</minhatag>
+
+	<joao idade="21">
+		<h4>opa fion</h4>
+	</joao>	
+
+</body>
+
+</html>
