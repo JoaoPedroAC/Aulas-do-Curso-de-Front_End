@@ -1,0 +1,26 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body{ height: 100%; }
+
+.box{
+	width: 100%;
+	padding: 30px 2%;
+	background-color: #cdc;
+	position: relative;
+}
+
+.box p{
+	font-size: 13px;
+	display: inline;
+	border-bottom: 2px solid darkblue;
+/*vai quebrar o texto para que caiba dentro do espaço indicado*/
+	word-wrap: break-word;
+}
+
+p{
+	width: 100px;
+	background-color: gray;
+/*white-space: "normal" é padrão; "nowrap" nunca vai quebrar; "pre" interpreta tudo oq fizer dentro da tag
+"pre-line" vai iguinorar os espaços e aceitar só as quebras de linha*/
+	white-space: pre;
+}
