@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+/*
+.teste, .teste1, .teste2{
+	width: 300px;
+	margin: 30px 30px;
+	display: inline-block;
+	height: 30px;
+	/*background-color: rgba(100, 230, 250, 0.5);
+}
+
+.teste1{
+	background-color: darkred;
+}
+
+.teste2{
+	background-color: lightblue;
+}*/
+
+/*: é o pseudo-classe*/
+/*hover faz cm q se mouse passar em cima aconteça a 
+ação definida*/
+/*.teste:hover{
+	height: 900px
+	background-color: blue;
+}
+
+.teste:hover, .teste1, .teste2{
+	vertical-align: top;
+}*/
+
+/*active realiza as ações delegadas caso o mouse esteja 
+pressionado sobre o bloco*/
+/*.teste:active{
+	background-color: black;
+}*/
+
+/*focus realiza as ações delegadas caso click no bloco*/
+/*.teste:focus{
+	background-color: green;
+}
+
+.testearea{
+	display: block;
+	width: 300px;
+	height: 200px;
+}*/
+
+/*visited caso cliquem na ancora ela fará as ações delegadas 
+e para desfazer é só apagar do historico do navegador*/
+/*.link1:visited{
+	color: red;
+}*/
+
+/*link nesse caso fará a mesma coisa que color: oramge;*/
+/*.link1:link{
+	color: orange;
+}*/
+/*
+ul{
+	list-style-position: inside;
+}
+/*esse q termina em type faz referencia ao tipo li na posição 2; a posiçao tem q bater com o tipo de elemtento*/
+/*ul li:nth-of-type(2){
+	color: red;
+}*/
+
+/*esse terminado em child faz referencia as filhas do ul na posiçao 3; a posiçao tem q bater com o elemtento*/
+/*ul li:nth-child(3){
+	color: orange;
+}*/
+
+/*
+.box{
+	width: 100%;
+}
+
+.box > div{
+	box-sizing: border-box;/*faz a borda ir pra dentro e não pra fora fechando assim os 100%
+	float: left;
+	width: 33.3%;/*100% dividido por 3
+	height:400px;
+	background-color: green;
+	border: 1px groove purple;
+}*/
+
+/* atacando o ultimo elemento
+.box div:nth-of-type(3), .box p:last-of-type{
+	background-color: blue;
+}*/
+
+/*atacando o ultimo elemento que esta dentro de outro elemento*/
+/*.box div:last-of-type p{
+	color: rgba(255, 255, 255, 1);
+}
+
+.box div:last-child p{
+	color: silver;
+}*/
+
+/*vai atacar tudo o q não tiver conexão com a classe one*/
+/*.box div:not(.one){
+	background-color: red;
+}*/
+
+/*vai afetar só as tags vazias*/
+/*p:empty{
+	width: 100px;
+	height: 100px;
+	background-color: gold;
+}*/
+
+/*vai pegar todos a classe p, dizendo para no final do texto inserir tais ações*/
+/*.p::after{
+	background-color: silver;
+	content: " João Pedro";
+}
+
+/*vai pegar todos a classe p, dizendo para no inicio do texto inserir tais ações*/
+/*.p::before{
+	background-color: gold;
+	content: "Prazer! ";
+}*/
+
+.parent{
+	background-color: #469;
+	width: 100%;
+	padding: 90px 0;
+	text-align: center;
+}
+
+.item{
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	background-color: green;
+	margin: 20px 0;
+}
+
+/*(2n +1) significa: ataque o 1º e a cada 2, incluindo o 2º*/
+.parent div:nth-of-type(2n + 1) > div.item{
+	background-color: red;
+}
+
+/*vai atacar a 1ª filha*/
+/*.parent div:first-child div.item{
+	background-color: purple;
+}*/
+
+/*vai atacar o 1º tipo*/
+/*.parent p:first-of-type{
+	color: gold;
+}*/
