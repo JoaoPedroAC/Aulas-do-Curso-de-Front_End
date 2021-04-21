@@ -1,0 +1,13 @@
+.botao, #botao{
+	text-align: center;
+}
+
+#botao{
+	display: inline-block;
+	background-color: green;
+	border:0;
+}
+
+#botao:focus{
+	outline: none;
+}
