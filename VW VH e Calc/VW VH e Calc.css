@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body, html{
+	height: 100%;
+}
+
+/*.sidebar{
+	width: 300px;
+	height: 100%;
+	background-color: black;
+	float: left;
+}
+
+.content{
+	width: calc(100% - 300px);/*é para reduzir o tamanho da sidebar*
+	height: 100%;
+	background-color: #ccc;
+	float: left;
+}*/
+
+/*.box{
+	width: calc((100% / 3) + 90px);/*vai dividir 100% por 3, q vai dá 33,3% e somar + 90px*
+	height: 90px;
+	background-color: red;
+}*/
+
+/*vw = viewport width = largura do viewport*/
+/*vh = viewport height = altura do viewport*/
+/*OBS: ele nao leva em consideração as scroll bar, ou seja, ele vai colocar espaços a mais q nao tem*/
+.box{
+	width: 100vw;
+	height: 90px;
+	background-color: red;
+}
+
+.box2{
+	width: 10px;
+	height: 9000px;
+}
+
